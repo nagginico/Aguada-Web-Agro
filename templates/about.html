@@ -1,8 +1,8 @@
+{% extends 'layout/base.html' %}
 {% load static %}
-<!DOCTYPE html>
-<html lang="en">
+{% block title %}Sobre Nosotros X10{% endblock %}
 
-<head>
+<!-- <head>
     <title>Aguada SRL - Sobre nosotros</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,12 +14,12 @@
     <link rel="stylesheet" href="{% static 'assets/css/templatemo.css'%}">
     <link rel="stylesheet" href="{% static 'assets/css/custom.css'%}">
 
-    <!-- Load fonts style after rendering the layout styles -->
+    Load fonts style after rendering the layout styles 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
     <link rel="stylesheet" href="{% static 'assets/css/fontawesome.min.css'%}">
 
-</head>
-
+</head> -->
+{% block content %}
 <body>
     <!-- Start Top Nav -->
     {% include 'layout/barsup.html' %}
@@ -187,5 +187,5 @@
     {% include 'layout/scripts.html' %}
     <!-- End Script -->
 </body>
-
+{% endblock %}
 </html>
